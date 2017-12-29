@@ -1,0 +1,10 @@
+Catpic
+
+1) Create ./images/ directory
+2) Install the python modules mentioned in requirements.txt
+3) Install "imagesnap" (available from Homebrew) and Imagemagick (we need the "convert" command for jpegs)
+4) Run `python3 catpic.py`
+5) Browse to http://127.0.0.1:3000/
+
+The application uses a websocket to push new frames to clients. The initial frame is loaded from /latest.jpg.
+
